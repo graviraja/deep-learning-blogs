@@ -1,17 +1,14 @@
 ---
-header:
-  overlay_color: "#333"
 title: "Transformer Explained - Part 1"
 date: '2019-03-18'
 tags: [machine learning, data science, deep learning, attention, transformers, sequence-to-sequence]
 summary: Transformer is also a typical sequence-to-sequence model, which contains a Encoder and Decoder. Here Encoder contains stack of encoder layers (N=6) and Decoder contains stack of decoder layers (N=6), instead of single encoder and decoder.
-excerpt: "Machine Learning, Deep Learning, Attention"
-mathjax: "true"
+draft: false
 ---
 
 In this post, we will look at **The Transformer** - a model that uses attention to learn the dependencies. This post explains the paper [Attention is all you need](https://arxiv.org/pdf/1706.03762.pdf).
 
-![transformer overview fig](/static/images/transformer/transformer.gif "Transformer Overview Figure")
+![transformer overview fig](/static/images/transformer/transformer.gif)
 
 I highly recommend to read the post [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
 
@@ -32,13 +29,13 @@ Here Encoder contains stack of encoder layers (N=6) and Decoder contains stack o
 
 *N=6* is not a magical number, in the paper it is six layers, one can experiment with other arrangements.
 
-![overview fig](/static/images/transformer/overview.png "Overview Figure")
+![overview fig](/static/images/transformer/overview.png)
 
 Let's look into the components of single encoder and single decoder and how they interact with each other.
 
 # Encoder
 
-![enc overview fig](/static/images/transformer/encoder_overview.png "Encoder Overview Figure")
+![enc overview fig](/static/images/transformer/encoder_overview.png)
 
 As shown in the above figure, the input is passed through a embedding layer.
 
