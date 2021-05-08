@@ -1,0 +1,16 @@
+{
+  "title": "Raviraja's Blog",
+  "author": "Raviraja Ganta",
+  "headerTitle": "Blog",
+  "description": "Blogs about Deep Learning and NLP",
+  "language": "en-us",
+  "siteUrl": "https://tailwind-nextjs-starter-blog.vercel.app",
+  "siteRepo": "https://github.com/timlrx/tailwind-nextjs-starter-blog",
+  "image": "/static/images/avatar.jpg",
+  "socialBanner": "/static/images/twitter-card.png",
+  "email": "raviraja.ghanta@gmail.com",
+  "github": "https://github.com/graviraja",
+  "twitter": "https://twitter.com/raviraja_ganta",
+  "linkedin": "https://www.linkedin.com/in/ravirajag/",
+  "locale": "en-US"
+}
