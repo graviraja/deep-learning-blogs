@@ -32,18 +32,29 @@ export default function About() {
             </div>
           </div>
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
+            <p>Hey there, welcome!</p>
             <p>
-              Hey there, welcome!
+              I am currently working in <span href="https://www.enterpret.com/">Enterpret</span> as
+              a Founding Engineer - NLP.
             </p>
             <p>
-              I am currently working in <span href="https://www.enterpret.com/">Enterpret</span> as a Founding Engineer - NLP.
+              Currently my interests are in Unsupervised Algorithms in NLP and productionising the
+              NLP models. I also like to follow latest research works happening in the NLP domain.
             </p>
             <p>
-              Currently my interests are in Unsupervised Algorithms in NLP and productionising the NLP models. I also like to
-              follow latest research works happening in the NLP domain.
-            </p>
-            <p>
-              Besides work, I like cooking 🥘 , cycling 🚴‍♀️ , kdramas 🎥 .
+              Besides work, I like cooking{' '}
+              <span role="img" aria-labelledby="cooking">
+                🥘
+              </span>{' '}
+              , cycling{' '}
+              <span role="img" aria-labelledby="cycling">
+                🚴‍♀️
+              </span>{' '}
+              , kdramas{' '}
+              <span role="img" aria-labelledby="kdramas">
+                🎥
+              </span>
+              .
             </p>
           </div>
         </div>
