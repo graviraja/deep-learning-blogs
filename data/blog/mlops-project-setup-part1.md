@@ -1,7 +1,7 @@
 ---
 title: 'MLOps Basics [Week 0]: Project Setup'
-date: '2021-05-23'
-lastmod: '2021-05-23'
+date: '2021-05-31'
+lastmod: '2021-05-31'
 tags: ['mlops', 'deeplearning', 'nlp', 'deployment']
 draft: false
 summary: "The goal of the series is to understand the basics of MLOps (model building, monitoring, configurations, testing, packaging, deployment, cicd). As a first step, Let's setup the project first."
@@ -331,7 +331,6 @@ class ColaPredictor:
 
 This conculdes the post. In the next post, I will be going through:
 
-- `How to integrate Weights and Bias logger?`
-- `How to package the model in different ways?`
+- `How to monitor model performance with Weights and Bias?`
 
 Complete code for this post can also be found here: [Github](https://github.com/graviraja/MLOps-Basics)

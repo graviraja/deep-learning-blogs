@@ -7,7 +7,7 @@
       <language>en-us</language>
       <managingEditor>raviraja.ghanta@gmail.com (Raviraja Ganta)</managingEditor>
       <webMaster>raviraja.ghanta@gmail.com (Raviraja Ganta)</webMaster>
-      <lastBuildDate>Sun, 23 May 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 31 May 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/index.xml" rel="self" type="application/rss+xml"/>
       
   <item>
@@ -15,19 +15,9 @@
     <title>MLOps Basics [Week 0]: Project Setup</title>
     <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-project-setup-part1</link>
     <description>The goal of the series is to understand the basics of MLOps (model building, monitoring, configurations, testing, packaging, deployment, cicd). As a first step, Let's setup the project first.</description>
-    <pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
+    <pubDate>Mon, 31 May 2021 00:00:00 GMT</pubDate>
     <author>raviraja.ghanta@gmail.com (Raviraja Ganta)</author>
     <category>mlops</category><category>deeplearning</category><category>nlp</category><category>deployment</category>
-  </item>
-
-  <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/introducing-tailwind-nextjs-starter-blog</guid>
-    <title>Introducing Tailwind Nexjs Starter Blog</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/introducing-tailwind-nextjs-starter-blog</link>
-    <description>Looking for a performant, out of the box template, with all the best in web technology to support your blogging needs? Checkout the Tailwind Nextjs Starter Blog template.</description>
-    <pubDate>Tue, 12 Jan 2021 00:00:00 GMT</pubDate>
-    <author>raviraja.ghanta@gmail.com (Raviraja Ganta)</author>
-    <category>next-js</category><category>tailwind</category><category>guide</category>
   </item>
 
     </channel>

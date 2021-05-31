@@ -38,8 +38,9 @@ export default function About() {
               a Founding Engineer - NLP.
             </p>
             <p>
-              Currently my interests are in Unsupervised Algorithms in NLP and productionising the
-              NLP models. I also like to follow latest research works happening in the NLP domain.
+              My interests are in Unsupervised Algorithms, Semantic Similarity and Productionising
+              the NLP models. I also like to follow latest research works happening in the NLP
+              domain.
             </p>
             <p>
               Besides work, I like cooking{' '}
