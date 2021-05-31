@@ -4,13 +4,13 @@ date: '2021-05-31'
 lastmod: '2021-05-31'
 tags: ['mlops', 'deeplearning', 'nlp', 'deployment']
 draft: false
-summary: "The goal of the series is to understand the basics of MLOps (model building, monitoring, configurations, testing, packaging, deployment, cicd). As a first step, Let's setup the project first."
+summary: "The goal of the series is to understand the basics of MLOps (model building, monitoring, configurations, testing, packaging, deployment, cicd). As a first step, Let's setup the project."
 images: ['/static/images/canada/mountains.jpg', '/static/images/canada/toronto.jpg']
 ---
 
 # 🎬 Start of the series
 
-The goal of the series is to understand the basics of MLOps (model building, monitoring, configurations, testing, packaging, deployment, cicd). As a first step, Let's setup the project first. I am particularly interested towards NLP (personal bias) but the process and tools stays the same irrespective of the project. I will be using a simple classification task.
+The goal of the series is to understand the basics of MLOps (model building, monitoring, configurations, testing, packaging, deployment, cicd). As a first step, Let's setup the project. I am particularly interested towards NLP (personal bias) but the process and tools stays the same irrespective of the project. I will be using a simple classification task.
 
 In this post, I will be going through the following topics:
 

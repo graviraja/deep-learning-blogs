@@ -34,7 +34,7 @@ export default function About() {
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
             <p>Hey there, welcome!</p>
             <p>
-              I am currently working in <span href="https://www.enterpret.com/">Enterpret</span> as
+              I am currently working at <span href="https://www.enterpret.com/">Enterpret</span> as
               a Founding Engineer - NLP.
             </p>
             <p>
