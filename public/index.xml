@@ -7,15 +7,25 @@
       <language>en-us</language>
       <managingEditor>raviraja.ghanta@gmail.com (Raviraja Ganta)</managingEditor>
       <webMaster>raviraja.ghanta@gmail.com (Raviraja Ganta)</webMaster>
-      <lastBuildDate>Sun, 06 Jun 2021 18:30:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 14 Jun 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/index.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-hydra-config</guid>
+    <title>MLOps Basics [Week 2]: Configurations - Hydra</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-hydra-config</link>
+    <description>Configuration management is a necessary for managing complex software systems. Lack of configuration management can cause serious problems with reliability, uptime, and the ability to scale a system. In this post, let's see how to use Hydra tool for doing that.</description>
+    <pubDate>Mon, 14 Jun 2021 00:00:00 GMT</pubDate>
+    <author>raviraja.ghanta@gmail.com (Raviraja Ganta)</author>
+    <category>mlops</category><category>deeplearning</category><category>nlp</category><category>deployment</category><category>configurations</category><category>hydra</category>
+  </item>
+
   <item>
     <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-wandb-integration</guid>
     <title>MLOps Basics [Week 1]: Model Monitoring - Weights and Bias</title>
     <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-wandb-integration</link>
     <description>Tracking all the experiments like tweaking hyper-parameters, trying different models to test their performance and seeing the connection between model and the input data will help in developing a better model. In this post, let's see how to use Weights and Bias tool for doing all that.</description>
-    <pubDate>Sun, 06 Jun 2021 18:30:00 GMT</pubDate>
+    <pubDate>Mon, 07 Jun 2021 00:00:00 GMT</pubDate>
     <author>raviraja.ghanta@gmail.com (Raviraja Ganta)</author>
     <category>mlops</category><category>deeplearning</category><category>nlp</category><category>deployment</category><category>wandb</category><category>weights and bias</category>
   </item>

@@ -1,6 +1,6 @@
 ---
 title: 'MLOps Basics [Week 1]: Model Monitoring - Weights and Bias'
-date: '2021-06-7'
+date: '2021-06-07'
 lastmod: '2021-06-07'
 tags: ['mlops', 'deeplearning', 'nlp', 'deployment', 'wandb', 'weights and bias']
 draft: false
