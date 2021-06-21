@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>raviraja.ghanta@gmail.com (Raviraja Ganta)</managingEditor>
       <webMaster>raviraja.ghanta@gmail.com (Raviraja Ganta)</webMaster>
-      <lastBuildDate>Mon, 14 Jun 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 19 Jun 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/index.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-dvc</guid>
+    <title>MLOps Basics [Week 3]: Data Version Control - DVC</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-dvc</link>
+    <description>Classical code version control systems are not designed to handle large files, which make cloning and storing the history impractical. Which are very common in Machine Learning. In this post, let's see how to use DVC for doing version controlling of models and data.</description>
+    <pubDate>Sat, 19 Jun 2021 00:00:00 GMT</pubDate>
+    <author>raviraja.ghanta@gmail.com (Raviraja Ganta)</author>
+    <category>mlops</category><category>deeplearning</category><category>nlp</category><category>deployment</category><category>dvc</category><category>versioning</category><category>data</category><category>model</category>
+  </item>
+
   <item>
     <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-hydra-config</guid>
     <title>MLOps Basics [Week 2]: Configurations - Hydra</title>
