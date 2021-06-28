@@ -7,15 +7,25 @@
       <language>en-us</language>
       <managingEditor>raviraja.ghanta@gmail.com (Raviraja Ganta)</managingEditor>
       <webMaster>raviraja.ghanta@gmail.com (Raviraja Ganta)</webMaster>
-      <lastBuildDate>Sat, 19 Jun 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 28 Jun 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/index.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-onnx</guid>
+    <title>MLOps Basics [Week 4]: Model Packaging - ONNX</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-onnx</link>
+    <description>Models can be built using any machine learning framework available out there (sklearn, tensorflow, pytorch, etc.). We might want to run in a different framework (trained in pytorch, inference in tensorflow). A common file format will help a lot. In this post, let's see how to do this using ONNX.</description>
+    <pubDate>Mon, 28 Jun 2021 00:00:00 GMT</pubDate>
+    <author>raviraja.ghanta@gmail.com (Raviraja Ganta)</author>
+    <category>mlops</category><category>deeplearning</category><category>nlp</category><category>deployment</category><category>model</category><category>compression</category><category>packaging</category><category>onnx</category>
+  </item>
+
   <item>
     <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-dvc</guid>
     <title>MLOps Basics [Week 3]: Data Version Control - DVC</title>
     <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-dvc</link>
     <description>Classical code version control systems are not designed to handle large files, which make cloning and storing the history impractical. Which are very common in Machine Learning. In this post, let's see how to use DVC for doing version controlling of models and data.</description>
-    <pubDate>Sat, 19 Jun 2021 00:00:00 GMT</pubDate>
+    <pubDate>Mon, 21 Jun 2021 00:00:00 GMT</pubDate>
     <author>raviraja.ghanta@gmail.com (Raviraja Ganta)</author>
     <category>mlops</category><category>deeplearning</category><category>nlp</category><category>deployment</category><category>dvc</category><category>versioning</category><category>data</category><category>model</category>
   </item>
