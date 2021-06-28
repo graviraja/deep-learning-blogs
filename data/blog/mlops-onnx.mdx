@@ -5,7 +5,7 @@ lastmod: '2021-06-28'
 tags: ['mlops', 'deeplearning', 'nlp', 'deployment', 'model', 'compression', 'packaging', 'onnx']
 draft: false
 summary: "Models can be built using any machine learning framework available out there (sklearn, tensorflow, pytorch, etc.). We might want to run in a different framework (trained in pytorch, inference in tensorflow). A common file format will help a lot. In this post, let's see how to do this using ONNX."
-images: ['/static/images/canada/maple.jpg']
+images: ['/static/images/canada/lake.jpg']
 ---
 
 # 📦 Model Packaging
@@ -13,7 +13,7 @@ images: ['/static/images/canada/maple.jpg']
 Why do we need model packaging? Models can be built using any machine learning framework available out there (sklearn, tensorflow, pytorch, etc.). We might want to deploy models in different environments like (mobile, web, raspberry pi) or want to run in a different framework (trained in pytorch, inference in tensorflow).
 A common file format to enable AI developers to use models with a variety of frameworks, tools, runtimes, and compilers will help a lot.
 
-This is acheived by a community project `ONNX`.
+This is achieved by a community project `ONNX`.
 
 In this post, I will be going through:
 
@@ -25,7 +25,7 @@ In this post, I will be going through:
 
 - `How to run ONNX converted model in ONNX Runtime?`
 
-- `Comparisions`
+- `Comparisons`
 
 ## What is ONNX?
 
@@ -295,7 +295,7 @@ class ColaPredictor:
 
 This is the `python` api example for onnxruntime. For other language support refer to the [documentation here](https://www.onnxruntime.ai/docs/tutorials/inferencing/api-basics.html)
 
-## ⏲ Comparisions
+## ⏲ Comparisons
 
 Let's compare the response time for both methods (standard pytorch inference, onnxruntime inference)
 
