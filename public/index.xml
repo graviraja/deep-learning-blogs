@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>raviraja.ghanta@gmail.com (Raviraja Ganta)</managingEditor>
       <webMaster>raviraja.ghanta@gmail.com (Raviraja Ganta)</webMaster>
-      <lastBuildDate>Mon, 05 Jul 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 12 Jul 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/index.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-github-actions</guid>
+    <title>MLOps Basics [Week 6]: CI/CD - GitHub Actions</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-github-actions</link>
+    <description>We might have to share our application with others, and when they try to run the app most of the time it doesn’t run due to dependencies / OS related issues. Let's see how to solve this problem using Docker. </description>
+    <pubDate>Mon, 12 Jul 2021 00:00:00 GMT</pubDate>
+    <author>raviraja.ghanta@gmail.com (Raviraja Ganta)</author>
+    <category>mlops</category><category>deeplearning</category><category>nlp</category><category>deployment</category><category>cicd</category><category>workflow</category><category>github actions</category>
+  </item>
+
   <item>
     <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-docker</guid>
     <title>MLOps Basics [Week 5]: Model Packaging - Docker</title>
