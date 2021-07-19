@@ -46,9 +46,9 @@ In this post, I will be going through the following topics:
 
 - `Basics of GitHub Actions`
 - `First GitHub Action`
-- `Creating Service Account`
+- `Creating Google Service Account`
 - `Giving access to service account`
-- `Configuring DVC to use Service account`
+- `Configuring DVC to use Google Service account`
 - `Configuring Github Action`
 
 _Note: MLOps includes model development also as a part of the cycle. This post covers only devops part._
@@ -199,7 +199,7 @@ Now that we understand how to configure a basic workflow, let's configure workfl
 
 In the previous posts, we have seen how to push the model to dvc, pull the model from dvc, create docker container and test it locally. Let's see how to do it using GitHub Actions.
 
-## ⚙️ Creating Service Account
+## ⚙️ Creating Google Service Account
 
 I have used Google Drive as the remote server for storing the trained model. In order to pull the model from Google Drive we need authentication. Ideally a link will be prompted (for the first time) when we attempt to push / pull the model from remote server and copy&paste the password prompted.
 
@@ -241,7 +241,7 @@ Go to the google drive and navigate to the remote storage folder (MLOps) and thi
 
 ![normal](/static/images/cicd/access.png)
 
-## ⚙️ Configuring DVC to use Service account
+## ⚙️ Configuring DVC to use Google Service account
 
 Now let's modify the dvc to use service account instead of acutal google account.
 
