@@ -7,15 +7,25 @@
       <language>en-us</language>
       <managingEditor>raviraja.ghanta@gmail.com (Raviraja Ganta)</managingEditor>
       <webMaster>raviraja.ghanta@gmail.com (Raviraja Ganta)</webMaster>
-      <lastBuildDate>Mon, 12 Jul 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 26 Jul 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/index.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-container-registry</guid>
+    <title>MLOps Basics [Week 7]: Container Registry - AWS ECR</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-container-registry</link>
+    <description>We might have to share our application with others, and when they try to run the app most of the time it doesn’t run due to dependencies / OS related issues. Let's see how to solve this problem using Docker. </description>
+    <pubDate>Mon, 26 Jul 2021 00:00:00 GMT</pubDate>
+    <author>raviraja.ghanta@gmail.com (Raviraja Ganta)</author>
+    <category>mlops</category><category>deeplearning</category><category>nlp</category><category>deployment</category><category>vm</category><category>container</category><category>registry</category><category>docker</category><category>aws</category><category>ecr</category>
+  </item>
+
   <item>
     <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-github-actions</guid>
     <title>MLOps Basics [Week 6]: CI/CD - GitHub Actions</title>
     <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-github-actions</link>
-    <description>We might have to share our application with others, and when they try to run the app most of the time it doesn’t run due to dependencies / OS related issues. Let's see how to solve this problem using Docker. </description>
-    <pubDate>Mon, 12 Jul 2021 00:00:00 GMT</pubDate>
+    <description>CI/CD is a coding philosophy and set of practices with which you can continuously build, test, and deploy iterative code changes. This iterative process helps reduce the chance that you develop new code based on buggy or failed previous versions. With this method, you strive to have less human intervention or even no intervention at all, from the development of new code until its deployment</description>
+    <pubDate>Mon, 19 Jul 2021 00:00:00 GMT</pubDate>
     <author>raviraja.ghanta@gmail.com (Raviraja Ganta)</author>
     <category>mlops</category><category>deeplearning</category><category>nlp</category><category>deployment</category><category>cicd</category><category>workflow</category><category>github actions</category>
   </item>
