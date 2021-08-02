@@ -7,17 +7,27 @@
       <language>en-us</language>
       <managingEditor>raviraja.ghanta@gmail.com (Raviraja Ganta)</managingEditor>
       <webMaster>raviraja.ghanta@gmail.com (Raviraja Ganta)</webMaster>
-      <lastBuildDate>Mon, 26 Jul 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 02 Aug 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/index.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-serverless</guid>
+    <title>MLOps Basics [Week 8]: Serverless Deployment - AWS Lambda</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-serverless</link>
+    <description>Developers, testers and CI/CD systems need to use a registry to store images created during the application development process. Container images placed in the registry can be used in various phases of the development. Let's see how to use AWS ECR for doing that.</description>
+    <pubDate>Mon, 02 Aug 2021 00:00:00 GMT</pubDate>
+    <author>raviraja.ghanta@gmail.com (Raviraja Ganta)</author>
+    <category>mlops</category><category>deeplearning</category><category>nlp</category><category>deployment</category><category>container</category><category>ecr</category><category>docker</category><category>aws</category><category>serverless</category><category>lambda</category>
+  </item>
+
   <item>
     <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-container-registry</guid>
     <title>MLOps Basics [Week 7]: Container Registry - AWS ECR</title>
     <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-container-registry</link>
-    <description>We might have to share our application with others, and when they try to run the app most of the time it doesn’t run due to dependencies / OS related issues. Let's see how to solve this problem using Docker. </description>
+    <description>Developers, testers and CI/CD systems need to use a registry to store images created during the application development process. Container images placed in the registry can be used in various phases of the development. Let's see how to use AWS ECR for doing that.</description>
     <pubDate>Mon, 26 Jul 2021 00:00:00 GMT</pubDate>
     <author>raviraja.ghanta@gmail.com (Raviraja Ganta)</author>
-    <category>mlops</category><category>deeplearning</category><category>nlp</category><category>deployment</category><category>vm</category><category>container</category><category>registry</category><category>docker</category><category>aws</category><category>ecr</category>
+    <category>mlops</category><category>deeplearning</category><category>nlp</category><category>deployment</category><category>s3</category><category>storage</category><category>container</category><category>registry</category><category>docker</category><category>aws</category><category>ecr</category>
   </item>
 
   <item>
