@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>raviraja.ghanta@gmail.com (Raviraja Ganta)</managingEditor>
       <webMaster>raviraja.ghanta@gmail.com (Raviraja Ganta)</webMaster>
-      <lastBuildDate>Mon, 09 Aug 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 16 Aug 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/index.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-summary</guid>
+    <title>MLOps Basics [Week 10]: Summary</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-summary</link>
+    <description>This post contains the summary of all topics covered till now, next steps and some good resources to follow.</description>
+    <pubDate>Mon, 16 Aug 2021 00:00:00 GMT</pubDate>
+    <author>raviraja.ghanta@gmail.com (Raviraja Ganta)</author>
+    <category>mlops</category><category>deeplearning</category><category>nlp</category><category>deployment</category><category>vm</category><category>container</category><category>api</category><category>docker</category>
+  </item>
+
   <item>
     <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/mlops-monitoring</guid>
     <title>MLOps Basics [Week 9]: Prediction Monitoring - Kibana</title>
