@@ -199,6 +199,7 @@ class ColaModel(pl.LightningModule):
         logits = self.forward(batch["input_ids"], batch["attention_mask"])
         loss = F.cross_entropy(logits, batch["label"])
         self.log("train_loss", loss, prog_bar=True)
+        return loss
 
     def validation_step(self, batch, batch_idx):
         logits = self.forward(batch["input_ids"], batch["attention_mask"])
@@ -266,8 +267,7 @@ You can see the tensorboard at `http://localhost:6006/`
 
 `Callback` is a self-contained program that can be reused across projects.
 
-As an example, I will be implementing **EarlyStopping** callback. This helps the model not to overfit by mointoring on a certain parameter (`val_loss` in this case)
-The best model will be saved in the `dirpath`.
+As an example, I will be implementing **ModelCheckpoint** callback. This will save the trained model. We can selectively choose which model to save by monitoring a metric.(`val_loss` in this case). The best model will be saved in the `dirpath`.
 
 Refer to the [documentation](https://pytorch-lightning.readthedocs.io/en/latest/extensions/callbacks.html) to learn more about callbacks.
 
@@ -286,6 +286,25 @@ trainer = pl.Trainer(
     fast_dev_run=False,
     logger=pl.loggers.TensorBoardLogger("logs/", name="cola", version=1),
     callbacks=[checkpoint_callback],
+)
+trainer.fit(cola_model, cola_data)
+```
+
+We can also chain multiple callbacks. `EarlyStopping` callback helps the model not to overfit by mointoring on a certain parameter (val_loss in this case).
+
+```python
+
+early_stopping_callback = EarlyStopping(
+    monitor="val_loss", patience=3, verbose=True, mode="min"
+)
+
+trainer = pl.Trainer(
+    default_root_dir="logs",
+    gpus=(1 if torch.cuda.is_available() else 0),
+    max_epochs=1,
+    fast_dev_run=False,
+    logger=pl.loggers.TensorBoardLogger("logs/", name="cola", version=1),
+    callbacks=[checkpoint_callback, early_stopping_callback],
 )
 trainer.fit(cola_model, cola_data)
 ```

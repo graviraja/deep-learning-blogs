@@ -97,7 +97,8 @@ Then declare the metrics in `__init__`
 ```python
 class ColaModel(pl.LightningModule):
     def __init__(self, model_name="google/bert_uncased_L-2_H-128_A-2", lr=3e-5):
-        self.accuracy_metric = torchmetrics.Accuracy()
+        self.train_accuracy_metric = torchmetrics.Accuracy()
+        self.val_accuracy_metric = torchmetrics.Accuracy()
         self.f1_metric = torchmetrics.F1(num_classes=self.num_classes)
         self.precision_macro_metric = torchmetrics.Precision(
             average="macro", num_classes=self.num_classes
@@ -147,9 +148,10 @@ def training_step(self, batch, batch_idx):
     )
     # loss = F.cross_entropy(logits, batch["label"])
     preds = torch.argmax(outputs.logits, 1)
-    train_acc = self.accuracy_metric(preds, batch["label"])
+    train_acc = self.train_accuracy_metric(preds, batch["label"])
     self.log("train/loss", outputs.loss, prog_bar=True, on_epoch=True)
     self.log("train/acc", train_acc, prog_bar=True, on_epoch=True)
+    return outputs.loss
 ```
 
 Since `on_epoch=True` is enabled, the plots in W&B 🏋️ will have `train/loss_step`, `train/loss_epoch` and `train/acc_step`, `train/acc_epoch`.
@@ -169,7 +171,7 @@ def validation_step(self, batch, batch_idx):
     preds = torch.argmax(outputs.logits, 1)
 
     # Metrics
-    valid_acc = self.accuracy_metric(preds, labels)
+    valid_acc = self.val_accuracy_metric(preds, labels)
     precision_macro = self.precision_macro_metric(preds, labels)
     recall_macro = self.recall_macro_metric(preds, labels)
     precision_micro = self.precision_micro_metric(preds, labels)
